@@ -27,3 +27,13 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+IOTV_id1/1.0/com.github.pcbway.PCBWay-Plug-in-for-Kicad_v0.1.3.zip
+
+IOTV_id1/1.0/app.freerouting.kicad-plugin_v1.7.0.zip
+
+IOTV_id1/1.0/com.github.alarm-siren.arduino-kicad-library_v3.0.0.zip
+
+IOTV_id1/1.0/com.github.easyw.kicad-action-tools_v1.0.4.zip
+
+IOTV_id1/1.0/com.github.mitxela.kicad-round-tracks_v1.4.zip
