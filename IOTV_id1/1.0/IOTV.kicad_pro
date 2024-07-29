@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -116,11 +116,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.125,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.145,
+        "min_copper_edge_clearance": 0.1,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.3,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -128,7 +128,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.145,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.125,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
@@ -453,7 +453,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.5,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
@@ -463,24 +463,75 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.5,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "1A_0.3mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.8,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "~220",
+        "name": "~220V_1A_0.3mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.5,
+        "track_width": 0.8,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.8,
+        "diff_pair_gap": 0.5,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "~220V_2A_0.8mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.8,
+        "diff_pair_gap": 0.5,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "~220V_6A_3.6mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.6,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -501,27 +552,27 @@
         "pattern": "220-(J1-Pin_1)"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "~220"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "HLK-AC1{slash}J2-2"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "HLK-AC2"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "J1-2"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "J1-1"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "HLK-AC2{slash}Реле вход"
       },
       {
@@ -529,16 +580,52 @@
         "pattern": "Реле-выход{slash}J2-2"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "HLK-AC2{slash}J1-2"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "Реле-выход{slash}J2-1"
       },
       {
-        "netclass": "~220",
+        "netclass": "~220V_1A_0.3mm",
         "pattern": "J1-1{slash}J2-1"
+      },
+      {
+        "netclass": "~220V_6A_3.6mm",
+        "pattern": "~220V_NC"
+      },
+      {
+        "netclass": "~220V_2A_0.8mm",
+        "pattern": "~220V_COM_3"
+      },
+      {
+        "netclass": "~220V_2A_0.8mm",
+        "pattern": "~220V_COM_2"
+      },
+      {
+        "netclass": "~220V_2A_0.8mm",
+        "pattern": "~220V_COM_1"
+      },
+      {
+        "netclass": "~220V_6A_3.6mm",
+        "pattern": "J1{slash}F1{slash}Relay"
+      },
+      {
+        "netclass": "~220V_1A_0.3mm",
+        "pattern": "J1-FL1(2)"
+      },
+      {
+        "netclass": "~220V_1A_0.3mm",
+        "pattern": "FL1-PS1(AC1)"
+      },
+      {
+        "netclass": "~220V_1A_0.3mm",
+        "pattern": "FL1-PS1(AC2)"
+      },
+      {
+        "netclass": "1A_0.3mm",
+        "pattern": "+5V"
       }
     ]
   },
@@ -547,7 +634,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "grb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "IOTV.step",
@@ -608,13 +695,139 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Display",
+          "name": "Display",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB ID",
+          "name": "JLCPCB ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Specifications",
+          "name": "Specifications",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Описание",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Обозначение"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -667,6 +880,14 @@
     [
       "1ca02c68-d763-4d2d-aed4-975a014c3931",
       "Корневой лист"
+    ],
+    [
+      "8676bfae-69f3-46f0-b949-7445ec684bf7",
+      "esp32"
+    ],
+    [
+      "6a9630b7-d673-4c3c-b852-578432860300",
+      "relay"
     ]
   ],
   "text_variables": {}
