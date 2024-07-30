@@ -2227,9 +2227,9 @@
 			(pintype "passive")
 			(uuid "801604f6-66d9-42f0-a8e9-2125950525b6")
 		)
-		(model "${KIPRJMOD}/packages3D/D_0603_1608Metric.wrl"
+		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.08 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2256,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Value" "80om"
+		(property "Value" "100"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "05bbd83a-87cc-4f28-b0f7-0e13e26779c6")
@@ -2462,7 +2462,7 @@
 			(at 0 -3.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a772cba9-197e-4fbf-b1a0-d1daa4cfa906")
+			(uuid "7fc1b213-96d3-4c0f-982f-26c2b2998638")
 			(effects
 				(font
 					(size 1 1)
@@ -2473,7 +2473,7 @@
 		(property "Value" "MountingHole_2.5mm_Pad"
 			(at 0 3.5 0)
 			(layer "F.Fab")
-			(uuid "418c3489-7982-4458-b4db-a20df3660bc9")
+			(uuid "0a60a2e5-8b51-4aea-a72a-f48a4b7bedca")
 			(effects
 				(font
 					(size 1 1)
@@ -2530,12 +2530,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c5f48359-bf03-4a69-a85f-2cae1782e4c0")
+			(uuid "4021f452-db4d-4bfc-983a-c9744fa14fa5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "df27b077-33f5-4a14-83d1-1c845aba40bc")
+			(uuid "7ffb3945-8a19-4e8f-a97a-5ef23b066ded")
 			(effects
 				(font
 					(size 1 1)
@@ -2549,7 +2549,7 @@
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "4658e972-e623-4009-8603-3407c4943375")
+			(uuid "2a3f41eb-6bff-4784-8044-6ff430da6eb2")
 		)
 	)
 	(footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
@@ -4557,9 +4557,9 @@
 			(pintype "passive")
 			(uuid "63906d05-96f1-48fd-82e5-6451d2580a4e")
 		)
-		(model "${KIPRJMOD}/packages3D/D_0603_1608Metric.wrl"
+		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.08 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -9980,7 +9980,7 @@
 				)
 			)
 		)
-		(property "Display" "n0,1uF/275VAC"
+		(property "Display" "0,1uF/275VAC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11210,9 +11210,9 @@
 			(pintype "passive")
 			(uuid "7e3b5cf3-f522-49ba-8768-688c09a8e5b8")
 		)
-		(model "${KIPRJMOD}/packages3D/D_0603_1608Metric.wrl"
+		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.08 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -11476,9 +11476,9 @@
 			(pintype "passive")
 			(uuid "de8cf50e-2bf2-42fe-8b29-5cc0f5c61a24")
 		)
-		(model "${KIPRJMOD}/packages3D/D_0603_1608Metric.wrl"
+		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.08 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -11805,7 +11805,7 @@
 				)
 			)
 		)
-		(property "Value" "80om"
+		(property "Value" "100"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "ae9ffbaf-df60-4a86-8967-9525a756e7ce")
@@ -12284,7 +12284,7 @@
 				)
 			)
 		)
-		(property "Value" "80om"
+		(property "Value" "100"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "7674ef60-6830-4b04-b24c-1f1597bc0526")
