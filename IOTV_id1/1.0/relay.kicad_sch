@@ -5,7 +5,9 @@
 	(uuid "6796faeb-617d-4073-bc36-dda4512b8540")
 	(paper "A4")
 	(title_block
+		(title "IOTV_ID-1 (3x2A)")
 		(date "2024-07-29")
+		(rev "1.0")
 		(company "Вербкин М.С.")
 	)
 	(lib_symbols
@@ -2216,7 +2218,7 @@
 				)
 			)
 		)
-		(property "Value" "80om"
+		(property "Value" "100"
 			(at 80.01 91.44 90)
 			(effects
 				(font
@@ -2284,7 +2286,7 @@
 				)
 			)
 		)
-		(property "Value" "80om"
+		(property "Value" "100"
 			(at 156.21 90.17 90)
 			(effects
 				(font
@@ -3426,7 +3428,7 @@
 				)
 			)
 		)
-		(property "Value" "80om"
+		(property "Value" "100"
 			(at 231.14 88.9 90)
 			(effects
 				(font

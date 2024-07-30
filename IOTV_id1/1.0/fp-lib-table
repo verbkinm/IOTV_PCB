@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "HLK-5M05")(type "KiCad")(uri "/home/user/myProg/IOTV_PCB/lib/hlk-pm01/HLK-5M05")(options "")(descr ""))
   (lib (name "g3mb-202")(type "KiCad")(uri "/home/user/myProg/IOTV_PCB/lib/g3mb-202")(options "")(descr ""))
+  (lib (name "local")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/local.pretty")(options "")(descr ""))
 )
